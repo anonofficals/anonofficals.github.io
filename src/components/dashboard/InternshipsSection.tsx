@@ -408,7 +408,7 @@ const InternshipsSection = () => {
       <InternDetailModal
         intern={selectedIntern}
         open={showDetailModal}
-        onOpenChange={setShowDetailModal}
+        onClose={() => setShowDetailModal(false)}
         onDelete={deleteIntern}
       />
     </div>

@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "type": "research_paper",
+    "title": "Machine Learning Applications in Healthcare Diagnostics",
+    "author": "Dr. Sarah Chen",
+    "email": "sarah.chen@university.edu",
+    "institution": "Stanford University",
+    "field": "AI/ML",
+    "abstract": "This paper explores novel machine learning approaches for early disease detection using medical imaging data.",
+    "status": "Under Review",
+    "submittedDate": "2024-01-15",
+    "keywords": "machine learning, healthcare, diagnostics"
+  },
+  {
+    "id": 2,
+    "type": "startup_idea",
+    "title": "GreenTech - Sustainable Energy Management Platform",
+    "founder": "Alex Rivera",
+    "email": "alex@greentech.io",
+    "company": "GreenTech Solutions",
+    "category": "CleanTech",
+    "stage": "Seed",
+    "description": "An AI-powered platform for optimizing energy consumption in commercial buildings.",
+    "fundingRequired": "$500,000",
+    "teamSize": 5,
+    "status": "Pending Review",
+    "submittedDate": "2024-01-20"
+  },
+  {
+    "id": 3,
+    "type": "research_paper",
+    "title": "Quantum Computing for Cryptographic Security",
+    "author": "Prof. Michael Torres",
+    "email": "mtorres@mit.edu",
+    "institution": "MIT",
+    "field": "Quantum Computing",
+    "abstract": "An analysis of post-quantum cryptographic methods and their implementation strategies.",
+    "status": "Approved",
+    "submittedDate": "2024-01-10",
+    "keywords": "quantum computing, cryptography, security"
+  }
+]

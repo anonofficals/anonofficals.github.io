@@ -1,0 +1,35 @@
+[
+  {
+    "applicationId": "INT-2024-001",
+    "name": "Emily Johnson",
+    "email": "emily.j@university.edu",
+    "phone": "+1-555-0123",
+    "university": "MIT",
+    "program": "Software Engineering Intern",
+    "status": "Under Review",
+    "submittedDate": "2024-01-15",
+    "expectedDecision": "2024-02-01"
+  },
+  {
+    "applicationId": "INT-2024-002",
+    "name": "James Wilson",
+    "email": "j.wilson@stanford.edu",
+    "phone": "+1-555-0456",
+    "university": "Stanford University",
+    "program": "Data Science Intern",
+    "status": "Accepted",
+    "submittedDate": "2024-01-10",
+    "expectedDecision": "2024-01-25"
+  },
+  {
+    "applicationId": "INT-2024-003",
+    "name": "Maria Garcia",
+    "email": "m.garcia@berkeley.edu",
+    "phone": "+1-555-0789",
+    "university": "UC Berkeley",
+    "program": "Product Design Intern",
+    "status": "Under Review",
+    "submittedDate": "2024-01-18",
+    "expectedDecision": "2024-02-05"
+  }
+]

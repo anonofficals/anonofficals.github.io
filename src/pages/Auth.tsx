@@ -247,12 +247,9 @@ const Auth = () => {
 
             <CardContent className="space-y-4">
               <Tabs defaultValue="login" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 bg-white/10">
+                <TabsList className="grid w-full grid-cols-1 bg-white/10">
                   <TabsTrigger value="login" className="text-white data-[state=active]:bg-white/20">
                     Login
-                  </TabsTrigger>
-                  <TabsTrigger value="signup" className="text-white data-[state=active]:bg-white/20">
-                    Sign Up
                   </TabsTrigger>
                 </TabsList>
 
@@ -349,88 +346,13 @@ const Auth = () => {
                     </div>
                   </div>
                 </TabsContent>
-
-                {/* Signup Tab */}
-                <TabsContent value="signup" className="space-y-4">
-                  <p className="text-gray-300 text-center text-sm mb-4">
-                    Create your client account to access our services
-                  </p>
-                  
-                  <form onSubmit={handleSignupSubmit} className="space-y-4">
-                    <div>
-                      <Label htmlFor="signup-name" className="text-white">
-                        Full Name
-                      </Label>
-                      <Input
-                        type="text"
-                        id="signup-name"
-                        placeholder="Enter your full name"
-                        className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
-                        value={signupData.fullName}
-                        onChange={(e) => setSignupData({...signupData, fullName: e.target.value})}
-                        required
-                      />
-                    </div>
-
-                    <div>
-                      <Label htmlFor="signup-email" className="text-white">
-                        Email
-                      </Label>
-                      <Input
-                        type="email"
-                        id="signup-email"
-                        placeholder="Enter your email"
-                        className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
-                        value={signupData.email}
-                        onChange={(e) => setSignupData({...signupData, email: e.target.value})}
-                        required
-                      />
-                    </div>
-
-                    <div>
-                      <Label htmlFor="signup-password" className="text-white">
-                        Password
-                      </Label>
-                      <Input
-                        type="password"
-                        id="signup-password"
-                        placeholder="Create a password"
-                        className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
-                        value={signupData.password}
-                        onChange={(e) => setSignupData({...signupData, password: e.target.value})}
-                        required
-                      />
-                    </div>
-
-                    <div>
-                      <Label htmlFor="signup-confirm-password" className="text-white">
-                        Confirm Password
-                      </Label>
-                      <Input
-                        type="password"
-                        id="signup-confirm-password"
-                        placeholder="Confirm your password"
-                        className="bg-white/10 border-white/20 text-white placeholder:text-gray-400"
-                        value={signupData.confirmPassword}
-                        onChange={(e) => setSignupData({...signupData, confirmPassword: e.target.value})}
-                        required
-                      />
-                    </div>
-
-                    {error && (
-                      <p className="text-red-500 text-sm text-center">{error}</p>
-                    )}
-
-                    <Button
-                      type="submit"
-                      className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white"
-                      disabled={loading}
-                    >
-                      {loading ? "Creating Account..." : "Create Client Account"}
-                    </Button>
-                  </form>
-                </TabsContent>
               </Tabs>
+
+              <div className="text-center pt-4 border-t border-white/10">
+                <p className="text-gray-400 text-sm">
+                  Need an account? Contact the administrator.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>

@@ -1,0 +1,59 @@
+[
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "iso": {
+      "alpha2": "US",
+      "alpha3": "USA",
+      "numeric": "840"
+    },
+    "flag": {
+      "emoji": "🇺🇸",
+      "svg": "https://flagcdn.com/us.svg"
+    },
+    "currency": {
+      "name": "United States dollar",
+      "code": "USD",
+      "symbol": "$"
+    },
+    "callingCode": "+1",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "languages": ["English"],
+    "coordinates": {
+      "latitude": 37.0902,
+      "longitude": -95.7129
+    }
+  },
+  {
+    "name": {
+      "common": "United Kingdom",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "iso": {
+      "alpha2": "GB",
+      "alpha3": "GBR",
+      "numeric": "826"
+    },
+    "flag": {
+      "emoji": "🇬🇧",
+      "svg": "https://flagcdn.com/gb.svg"
+    },
+    "currency": {
+      "name": "British pound",
+      "code": "GBP",
+      "symbol": "£"
+    },
+    "callingCode": "+44",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "languages": ["English"],
+    "coordinates": {
+      "latitude": 55.3781,
+      "longitude": -3.4360
+    }
+  }
+]
+

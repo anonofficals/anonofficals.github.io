@@ -1,0 +1,476 @@
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import {
+  Github,
+  Mail,
+  Linkedin,
+  Twitter,
+  Building2,
+  MapPin,
+  Clock4,
+  ArrowRight
+} from "lucide-react";
+
+const About = () => {
+  
+    const leadership = [
+      {
+        name: "Muhammad Qasim",
+        role: "CEO & Founder",
+        image: "https://i.postimg.cc/cH7gM7Qz/shared-image.jpg",
+      },
+      {
+        name: "Sawera Afzal",
+        role: "CTO & Co-Founder", 
+        image: "https://i.postimg.cc/25Mf5gMd/45f90cfb5261bedd9164fecd01d9b12d.jpg",
+      },
+      {
+        name: "Sobia Kosar",
+        role: "Chief Research Officer",
+        image: "https://i.postimg.cc/25Mf5gMd/45f90cfb5261bedd9164fecd01d9b12d.jpg",
+      },
+      {
+        name: "Ayesha Tariq",
+        role: "Chief Research Officer",
+        image: "https://i.postimg.cc/nLkHcdZ0/Media-2.jpg",
+      }
+    ];
+  return (
+    <PageTransition>
+      <div className="min-h-screen about-page-bg">
+        <div className="universal-page-overlay" />
+        <div className="universal-moving-gradient" />
+        <div className="universal-content">
+          <Navigation />
+=======
+import React from "react";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import {
+  Github,
+  Mail,
+  Linkedin,
+  Twitter,
+  Building2,
+  MapPin,
+  Clock4,
+  ArrowRight
+} from "lucide-react";
+import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
+const About = () => {
+  
+  const leadership = [
+    {
+      name: "Muhammad Qasim",
+      role: "CEO & Founder",
+      image: "https://i.postimg.cc/cH7gM7Qz/shared-image.jpg",
+      bio: "Visionary leader driving innovation and growth with over 15 years of experience in technology and entrepreneurship.",
+      expertise: ["Leadership", "Strategy", "AI", "Business Development"]
+    },
+    {
+      name: "Sawera Afzal",
+      role: "CTO & Co-Founder", 
+      image: "https://i.postimg.cc/25Mf5gMd/45f90cfb5261bedd9164fecd01d9b12d.jpg",
+      bio: "Technical expert leading the development of cutting-edge software solutions and overseeing technology strategy.",
+      expertise: ["Software Architecture", "Cloud Computing", "AI", "Team Leadership"]
+    },
+    {
+      name: "Sobia Kosar",
+      role: "Chief Research Officer",
+      image: "https://i.postimg.cc/25Mf5gMd/45f90cfb5261bedd9164fecd01d9b12d.jpg",
+      bio: "Experienced researcher focused on advancing technology through innovative research and development.",
+      expertise: ["Research", "Data Science", "Machine Learning", "Innovation"]
+    },
+    {
+      name: "Ayesha Tariq",
+      role: "Chief Research Officer",
+      image: "https://i.postimg.cc/nLkHcdZ0/Media-2.jpg",
+      bio: "Dedicated to driving impactful research initiatives and fostering collaboration across teams.",
+      expertise: ["Research Management", "Collaboration", "Project Planning", "Technical Writing"]
+    }
+  ];
+  return (
+    <PageTransition>
+      <div className="min-h-screen about-page-bg" role="main" aria-label="About Next Gen Developers">
+        <div className="universal-page-overlay" />
+        <div className="universal-moving-gradient" />
+        <div className="universal-content">
+          <Navigation />
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+          {/* Hero Section */}
+          <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <div className="relative z-10 text-center container-responsive">
+              <h1 className="responsive-title font-bold mb-4 sm:mb-6 text-white">
+                About Next Gen Developers
+              </h1>
+              <p className="responsive-subtitle text-white max-w-4xl mx-auto mb-8 sm:mb-12 px-4">
+                Learn about our mission, vision, and the team behind the cutting-edge technology solutions.
+              </p>
+            </div>
+          </section>
+=======
+          {/* Hero Section */}
+          <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-labelledby="about-hero-title">
+            <div className="relative z-10 text-center container-responsive">
+              <h1 id="about-hero-title" className="responsive-title font-bold mb-4 sm:mb-6 text-white">
+                About Next Gen Developers
+              </h1>
+              <p className="responsive-subtitle text-white max-w-4xl mx-auto mb-8 sm:mb-12 px-4">
+                Learn about our mission, vision, and the team behind the cutting-edge technology solutions.
+              </p>
+            </div>
+          </section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+          {/* Mission & Vision Section */}
+          <section className="section-padding bg-transparent">
+            <div className="container-responsive">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div className="space-y-6">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                    Our Mission
+                  </h2>
+                  <p className="responsive-text text-white">
+                    To pioneer the future through innovative AI, Robotics, Web Development, and Space Technology solutions.
+                    We strive to push the boundaries of what's possible and create technologies that improve lives globally.
+                  </p>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                    Our Vision
+                  </h2>
+                  <p className="responsive-text text-white">
+                    To be a global leader in technology innovation, shaping a future where technology empowers humanity and solves the world's most pressing challenges.
+                  </p>
+                </div>
+                <div className="relative">
+                  <img
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80"
+                    alt="Futuristic Technology"
+                    className="rounded-2xl shadow-2xl object-cover w-full h-auto"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+=======
+          {/* Mission & Vision Section */}
+          <section className="section-padding bg-transparent" aria-labelledby="mission-vision-title">
+            <div className="container-responsive">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div className="space-y-6">
+                  <h2 id="mission-vision-title" className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                    Our Mission
+                  </h2>
+                  <p className="responsive-text text-white">
+                    To pioneer the future through innovative AI, Robotics, Web Development, and Space Technology solutions.
+                    We strive to push the boundaries of what's possible and create technologies that improve lives globally.
+                  </p>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+                    Our Vision
+                  </h2>
+                  <p className="responsive-text text-white">
+                    To be a global leader in technology innovation, shaping a future where technology empowers humanity and solves the world's most pressing challenges.
+                  </p>
+                </div>
+                <div className="relative">
+                  <img
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80"
+                    alt="Futuristic Technology representing innovation and progress"
+                    className="rounded-2xl shadow-2xl object-cover w-full h-auto"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+          {/* Team Section */}
+          <section className="section-padding bg-black">
+                      <div className="container-responsive">
+                        <div className="text-center mb-12 sm:mb-16">
+                          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
+                            Leadership Team
+                          </h2>
+                          <p className="responsive-text text-gray-300 max-w-3xl mx-auto">
+                            Visionary leaders with decades of combined experience in technology, research, and innovation.
+                          </p>
+                        </div>
+                        
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                          {leadership.map((leader, index) => (
+                            <Card key={index} className="card-professional group hover-lift">
+                              <CardHeader className="p-4 sm:p-6 text-center">
+                                <div className="relative mx-auto mb-4">
+                                  <img
+                                    src={leader.image}
+                                    alt={leader.name}
+                                    className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover mx-auto"
+                                  />
+                                  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 group-hover:from-blue-500/30 group-hover:to-purple-500/30 transition-all duration-300"></div>
+                                </div>
+                                <CardTitle className="text-lg sm:text-xl text-white mb-2 group-hover:text-cyan-300 transition-colors duration-300">
+                                  {leader.name}
+                                </CardTitle>
+                                <Badge className="bg-blue-500/20 text-blue-300 border-blue-500/30 mb-3">
+                                  {leader.role}
+                                </Badge>
+                              </CardHeader>
+                              
+                              <CardContent className="p-4 sm:p-6 pt-0">
+                                <CardDescription className="text-gray-300 mb-4 text-center text-sm sm:text-base">
+                                  {leader.bio}
+                                </CardDescription>
+                                
+                                <div className="space-y-3">
+                                  <div>
+                                    <h4 className="text-white font-medium mb-2 text-sm">Expertise:</h4>
+                                    <div className="flex flex-wrap gap-1 justify-center">
+                                      {leader.expertise.map((skill, i) => (
+                                        <Badge key={i} variant="outline" className="text-xs border-gray-600 text-gray-400">
+                                          {skill}
+                                        </Badge>
+                                      ))}
+                                    </div>
+                                  </div>
+                                  
+                                  <div className="flex justify-center space-x-3 pt-3 border-t border-gray-700">
+                                    <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400">
+                                      <Linkedin className="w-4 h-4" />
+                                    </Button>
+                                    <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400">
+                                      <Twitter className="w-4 h-4" />
+                                    </Button>
+                                    <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400">
+                                      <Github className="w-4 h-4" />
+                                    </Button>
+                                    <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400">
+                                      <Mail className="w-4 h-4" />
+                                    </Button>
+                                  </div>
+                                </div>
+                              </CardContent>
+                            </Card>
+                          ))}
+                        </div>
+                      </div>
+                    </section>
+=======
+          {/* Team Section */}
+          <section className="section-padding bg-black" aria-labelledby="leadership-team-title">
+            <div className="container-responsive">
+              <div className="text-center mb-12 sm:mb-16">
+                <h2 id="leadership-team-title" className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
+                  Leadership Team
+                </h2>
+                <p className="responsive-text text-gray-300 max-w-3xl mx-auto">
+                  Visionary leaders with decades of combined experience in technology, research, and innovation.
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                {leadership.map((leader, index) => (
+                  <Card key={index} className="card-professional group hover-lift" role="region" aria-label={`Profile of ${leader.name}`}>
+                    <CardHeader className="p-4 sm:p-6 text-center">
+                      <div className="relative mx-auto mb-4">
+                        <img
+                          src={leader.image}
+                          alt={`Portrait of ${leader.name}`}
+                          className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover mx-auto"
+                        />
+                        <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 group-hover:from-blue-500/30 group-hover:to-purple-500/30 transition-all duration-300"></div>
+                      </div>
+                      <CardTitle className="text-lg sm:text-xl text-white mb-2 group-hover:text-cyan-300 transition-colors duration-300">
+                        {leader.name}
+                      </CardTitle>
+                      <Badge className="bg-blue-500/20 text-blue-300 border-blue-500/30 mb-3">
+                        {leader.role}
+                      </Badge>
+                    </CardHeader>
+                    
+                    <CardContent className="p-4 sm:p-6 pt-0">
+                      <CardDescription className="text-gray-300 mb-4 text-center text-sm sm:text-base">
+                        {leader.bio}
+                      </CardDescription>
+                      
+                      <div className="space-y-3">
+                        <div>
+                          <h4 className="text-white font-medium mb-2 text-sm">Expertise:</h4>
+                          <div className="flex flex-wrap gap-1 justify-center">
+                            {leader.expertise.map((skill, i) => (
+                              <Badge key={i} variant="outline" className="text-xs border-gray-600 text-gray-400">
+                                {skill}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
+                        
+                        <div className="flex justify-center space-x-3 pt-3 border-t border-gray-700">
+                          <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400" aria-label={`LinkedIn profile of ${leader.name}`}>
+                            <Linkedin className="w-4 h-4" />
+                          </Button>
+                          <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400" aria-label={`Twitter profile of ${leader.name}`}>
+                            <Twitter className="w-4 h-4" />
+                          </Button>
+                          <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400" aria-label={`GitHub profile of ${leader.name}`}>
+                            <Github className="w-4 h-4" />
+                          </Button>
+                          <Button size="sm" variant="ghost" className="p-2 text-gray-400 hover:text-blue-400" aria-label={`Email contact for ${leader.name}`}>
+                            <Mail className="w-4 h-4" />
+                          </Button>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          </section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+          {/* Values Section */}
+          <section className="section-padding bg-transparent">
+            <div className="container-responsive">
+              <div className="text-center mb-12 sm:mb-16">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
+                  Our Core Values
+                </h2>
+                <p className="responsive-text text-white max-w-3xl mx-auto">
+                  Guiding principles that define our culture and drive our success.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                {/* Value 1 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Innovation
+                  </h3>
+                  <p className="text-white text-sm">
+                    We embrace creativity and constantly seek new and better ways to solve problems.
+                  </p>
+                </div>
+
+                {/* Value 2 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Collaboration
+                  </h3>
+                  <p className="text-white text-sm">
+                    We believe in the power of teamwork and open communication to achieve common goals.
+                  </p>
+                </div>
+
+                {/* Value 3 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Excellence
+                  </h3>
+                  <p className="text-white text-sm">
+                    We are committed to delivering the highest quality solutions and exceeding expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+=======
+          {/* Values Section */}
+          <section className="section-padding bg-transparent" aria-labelledby="core-values-title">
+            <div className="container-responsive">
+              <div className="text-center mb-12 sm:mb-16">
+                <h2 id="core-values-title" className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
+                  Our Core Values
+                </h2>
+                <p className="responsive-text text-white max-w-3xl mx-auto">
+                  Guiding principles that define our culture and drive our success.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                {/* Value 1 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift" role="article" aria-label="Innovation value">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Innovation
+                  </h3>
+                  <p className="text-white text-sm">
+                    We embrace creativity and constantly seek new and better ways to solve problems.
+                  </p>
+                </div>
+
+                {/* Value 2 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift" role="article" aria-label="Collaboration value">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Collaboration
+                  </h3>
+                  <p className="text-white text-sm">
+                    We believe in the power of teamwork and open communication to achieve common goals.
+                  </p>
+                </div>
+
+                {/* Value 3 */}
+                <div className="bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-6 hover-lift" role="article" aria-label="Excellence value">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Excellence
+                  </h3>
+                  <p className="text-white text-sm">
+                    We are committed to delivering the highest quality solutions and exceeding expectations.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+          {/* Contact Section */}
+          <section className="section-padding bg-transparent">
+            <div className="container-responsive">
+              <div className="text-center bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-8 sm:p-12">
+                <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">
+                  Connect With Us
+                </h2>
+                <p className="responsive-text text-white max-w-2xl mx-auto mb-8 sm:mb-12">
+                  Reach out to learn more about our company, explore partnership opportunities, or discuss your project needs.
+                </p>
+                <Link to="/contact">
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                    Contact Us
+                    <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </section>
+=======
+          {/* Contact Section */}
+          <section className="section-padding bg-transparent" aria-labelledby="contact-us-title">
+            <div className="container-responsive">
+              <div className="text-center bg-transparent border-white/10 backdrop-blur-sm rounded-2xl p-8 sm:p-12">
+                <h2 id="contact-us-title" className="text-2xl sm:text-3xl font-bold text-white mb-4 sm:mb-6">
+                  Connect With Us
+                </h2>
+                <p className="responsive-text text-white max-w-2xl mx-auto mb-8 sm:mb-12">
+                  Reach out to learn more about our company, explore partnership opportunities, or discuss your project needs.
+                </p>
+                <Link to="/contact">
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white" aria-label="Contact Us">
+                    Contact Us
+                    <ArrowRight className="ml-2 w-4 h-4" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </section>

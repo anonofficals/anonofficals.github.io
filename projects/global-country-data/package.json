@@ -1,0 +1,31 @@
+{
+  "name": "@anonoss/global-country-data",
+  "version": "1.0.0",
+  "description": "A comprehensive, standardized JSON dataset containing detailed metadata for all countries worldwide",
+  "main": "data/countries.json",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test/test.js",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "countries",
+    "country-data",
+    "iso-3166",
+    "geography",
+    "flags",
+    "currencies",
+    "json"
+  ],
+  "author": "AnonOSS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnonOSS/global-country-data.git"
+  },
+  "files": [
+    "data/",
+    "index.d.ts"
+  ]
+}
+

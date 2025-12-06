@@ -1,0 +1,14 @@
+<Window x:Class="PowerToys.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PowerToys" Height="600" Width="800"
+        Background="#1E1E1E">
+    <Grid>
+        <TextBlock Text="PowerToys" 
+                   FontSize="24" 
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+    </Grid>
+</Window>
+

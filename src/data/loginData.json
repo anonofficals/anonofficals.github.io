@@ -1,0 +1,27 @@
+
+{
+  "loginHistory": [
+    {
+      "userId": "ceo@company.com",
+      "loginTime": "2024-12-22T08:30:00Z",
+      "ipAddress": "192.168.1.100",
+      "device": "Desktop - Chrome",
+      "location": "San Francisco, CA"
+    },
+    {
+      "userId": "hr.web@company.com",
+      "loginTime": "2024-12-22T07:45:00Z",
+      "ipAddress": "192.168.1.101",
+      "device": "Mobile - Safari",
+      "location": "Seattle, WA"
+    }
+  ],
+  "currentSessions": [
+    {
+      "userId": "ceo@company.com",
+      "sessionStart": "2024-12-22T08:30:00Z",
+      "lastActivity": "2024-12-22T09:15:00Z",
+      "isActive": true
+    }
+  ]
+}

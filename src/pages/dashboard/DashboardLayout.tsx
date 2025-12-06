@@ -21,6 +21,7 @@ const DashboardLayout = () => {
 
     const navItems = [
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },
+        { icon: LayoutDashboard, label: 'Admin Dashboard', path: '/dashboard/admin' },
         { icon: FileText, label: 'Manage Blogs', path: '/dashboard/blogs' },
         { icon: FolderKanban, label: 'Manage Projects', path: '/dashboard/projects' },
         { icon: Settings, label: 'Settings', path: '/dashboard/settings' },

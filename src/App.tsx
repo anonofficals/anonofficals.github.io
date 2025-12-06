@@ -33,6 +33,7 @@ import DashboardLayout from './pages/dashboard/DashboardLayout';
 import Overview from './pages/dashboard/Overview';
 import ManageBlogs from './pages/dashboard/ManageBlogs';
 import ManageProjects from './pages/dashboard/ManageProjects';
+import AdminDashboard from './pages/dashboard/AdminDashboard';
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
                 {/* Private Routes with PrivateLayout */}
                 <Route path="/dashboard" element={<DashboardLayout />}>
                   <Route index element={<Overview />} />
+                  <Route path="admin" element={<AdminDashboard />} />
                   <Route path="blogs" element={<ManageBlogs />} />
                   <Route path="projects" element={<ManageProjects />} />
                   {/* Add other dashboard routes here if needed */}

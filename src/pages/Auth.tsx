@@ -298,53 +298,6 @@ const Auth = () => {
                       {loading ? "Logging in..." : "Login"}
                     </Button>
                   </form>
-
-                  {/* Social Login Section */}
-                  <div className="border-t border-white/10 pt-4">
-                    <p className="text-gray-300 text-center mb-3">Or continue with</p>
-                    <div className="grid grid-cols-1 gap-3">
-                      <Button
-                        variant="outline"
-                        className="w-full bg-white/10 border-white/20 text-white hover:bg-white/20"
-                        onClick={() => toast({ title: "Coming Soon", description: "Microsoft SSO integration in development" })}
-                      >
-                        Continue with Microsoft
-                      </Button>
-                      <Button
-                        variant="outline"
-                        className="w-full bg-white/10 border-white/20 text-white hover:bg-white/20"
-                        onClick={() => toast({ title: "Coming Soon", description: "Google SSO integration in development" })}
-                      >
-                        Continue with Google
-                      </Button>
-                      <Button
-                        variant="outline"
-                        className="w-full bg-white/10 border-white/20 text-white hover:bg-white/20"
-                        onClick={() => toast({ title: "Coming Soon", description: "GitHub SSO integration in development" })}
-                      >
-                        Continue with GitHub
-                      </Button>
-                    </div>
-                  </div>
-
-                  <div className="border-t border-white/10 pt-4">
-                    <p className="text-gray-300 text-center mb-3">
-                      Or login with demo account:
-                    </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
-                      {demoAccounts.map((account) => (
-                        <Button
-                          key={account.email}
-                          variant="secondary"
-                          className="bg-gray-800/50 hover:bg-gray-700/50 text-white text-xs p-2"
-                          onClick={() => handleDemoLogin(account)}
-                          disabled={loading}
-                        >
-                          {account.label}
-                        </Button>
-                      ))}
-                    </div>
-                  </div>
                 </TabsContent>
               </Tabs>
 
